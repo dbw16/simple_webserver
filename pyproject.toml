@@ -12,3 +12,7 @@ select = ["F", "E", "W", "I001"]
 
 [tool.black]
 line-length = 150
+
+[tool.mypy]
+strict = true
+exclude = ["scripts", "docs", "test"]
